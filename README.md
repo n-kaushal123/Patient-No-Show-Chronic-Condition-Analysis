@@ -1,6 +1,6 @@
 # Patient No-Show & Chronic Condition Analysis
 
-Analyzing healthcare appointment data to find patterns behind why patients miss their scheduled visits.
+Analyzing healthcare appointment data to understand which factors are associated with patients missing their scheduled visits
 
 ## Problem Statement
 
@@ -74,11 +74,13 @@ erDiagram
 ### Option A — Docker (recommended)
 
 Start the database container:
+
 ```bash
 docker compose up -d
 ```
 
 Connect using DBeaver or any MySQL client:
+
 - Host: `localhost:3306`
 - Database: `hospital_noshow`
 - User: `root`
@@ -87,6 +89,7 @@ Connect using DBeaver or any MySQL client:
 ### Option B — No Docker (fallback)
 
 Manual setup via XAMPP/phpMyAdmin or MySQL Workbench:
+
 1. Import `sql/01_schema.sql`
 2. Complete the manual data loading step described above
 3. Import `sql/02_load_data.sql`
@@ -104,14 +107,14 @@ Full queries are in [`sql/03_queries.sql`](sql/03_queries.sql).
 
 ## Findings Summary
 
-| Metric | Result |
-|---|---|
-| Overall no-show rate | 20.19% |
-| Diabetes | 18.0% (with) vs 20.36% (without) |
-| Hypertension | 17.3% (with) vs 20.9% (without) |
-| SMS reminder | 27.57% (received) vs 16.7% (not received) |
-| Lead time | 4.65% (same day) → 24.15% (1-7 days) → 31.72% (8-30 days) → 33.03% (30+ days) |
-| Age group | Under 18: 21.91%, 18-35: 23.83%, 36-55: 19.69%, 55+: 16.64% |
+| Metric               | Result                                                                        |
+| -------------------- | ----------------------------------------------------------------------------- |
+| Overall no-show rate | 20.19%                                                                        |
+| Diabetes             | 18.0% (with) vs 20.36% (without)                                              |
+| Hypertension         | 17.3% (with) vs 20.9% (without)                                               |
+| SMS reminder         | 27.57% (received) vs 16.7% (not received)                                     |
+| Lead time            | 4.65% (same day) → 24.15% (1-7 days) → 31.72% (8-30 days) → 33.03% (30+ days) |
+| Age group            | Under 18: 21.91%, 18-35: 23.83%, 36-55: 19.69%, 55+: 16.64%                   |
 
 Full reasoning and interpretation for each of these is in [`findings/findings.md`](findings/findings.md).
 
