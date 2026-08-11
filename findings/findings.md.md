@@ -58,5 +58,5 @@ immediate, noticeable consequences. Regular engagement with the
 healthcare system likely reinforces this further.
 
 **Note:** These are correlations observed in the data, not confirmed
-causal relationships — further statistical testing would be needed to
+causal relationships further statistical testing would be needed to
 validate them beyond this exploratory analysis.
