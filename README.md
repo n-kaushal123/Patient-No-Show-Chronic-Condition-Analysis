@@ -4,7 +4,7 @@ Analyzing healthcare appointment data to understand which factors are associated
 
 ## Problem Statement
 
-Do patients with chronic conditions like diabetes and hypertension attend appointments differently than other patients? This project looks at whether chronic illness status predicts no-show behavior, with the goal of helping hospitals figure out which patient groups might need targeted outreach — like care coordinators, home visits, or telehealth options  to improve treatment adherence. It also looks at supporting factors like SMS reminders and booking lead-time to see where scheduling policy could help reduce missed appointments.
+Do patients with chronic conditions like diabetes and hypertension attend appointments differently than other patients? This project looks at whether chronic illness status predicts no-show behavior, with the goal of helping hospitals figure out which patient groups might need targeted outreach  like care coordinators, home visits, or telehealth options  to improve treatment adherence. It also looks at supporting factors like SMS reminders and booking lead-time to see where scheduling policy could help reduce missed appointments.
 
 ## Dataset
 
