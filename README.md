@@ -4,7 +4,7 @@ Analyzing healthcare appointment data to understand which factors are associated
 
 ## Problem Statement
 
-Do patients with chronic conditions like diabetes and hypertension attend appointments differently than other patients? This project looks at whether chronic illness status predicts no-show behavior, with the goal of helping hospitals figure out which patient groups might need targeted outreach — like care coordinators, home visits, or telehealth options — to improve treatment adherence. It also looks at supporting factors like SMS reminders and booking lead-time to see where scheduling policy could help reduce missed appointments.
+Do patients with chronic conditions like diabetes and hypertension attend appointments differently than other patients? This project looks at whether chronic illness status predicts no-show behavior, with the goal of helping hospitals figure out which patient groups might need targeted outreach — like care coordinators, home visits, or telehealth options  to improve treatment adherence. It also looks at supporting factors like SMS reminders and booking lead-time to see where scheduling policy could help reduce missed appointments.
 
 ## Dataset
 
@@ -122,8 +122,8 @@ Full reasoning and interpretation for each of these is in [`findings/findings.md
 
 The chart above shows the clearest pattern in the data — no-show rate rises sharply the further in advance an appointment is booked.
 
-**Note:** These are correlations found in the data, not confirmed cause-and-effect relationships — further statistical testing would be needed to validate them beyond this exploratory analysis.
+**Note:** These are correlations found in the data, not confirmed cause-and-effect relationships further statistical testing would be needed to validate them beyond this exploratory analysis.
 
 ## Real-World Relevance
 
-These attendance patterns aren't unique to this dataset. Public healthcare systems in Asia — like India's OPD system or the Philippines' PhilHealth clinics — deal with similar high patient volumes and appointment attendance challenges. Being able to identify which patient groups are more likely to miss appointments could help these systems target outreach more effectively and use limited resources better.
+These attendance patterns aren't unique to this dataset. Public healthcare systems in Asia like India's OPD system or the Philippines' PhilHealth clinics  deal with similar high patient volumes and appointment attendance challenges. Being able to identify which patient groups are more likely to miss appointments could help these systems target outreach more effectively and use limited resources better.
